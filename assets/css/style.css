@@ -1,0 +1,66 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f2f2f2;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  background-color: #CCC;
+  margin-bottom: 50px;
+}
+
+.logo {
+  width: 150px;
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 50px;
+}
+
+#getPokemon {
+  padding: 10px 25px;
+  background-color: #e62828;
+  border: none;
+  cursor: pointer;
+  border-radius: 3px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1rem;
+  color: #FFF;
+  transition: all ease 0.3s;
+  
+}
+
+#getPokemon:hover {
+  opacity: 0.9;
+  box-shadow: 0 0 2px rgb(0 0 0 / 45%);
+}
+
+.card-pokemon{
+  background-color: rgb(61, 152, 236);
+  box-shadow: 1px 1px 3px black;
+  text-align: center;
+  border-radius: 3px;
+  padding: 20px 50px;
+}
+
+.nome-pokemon, .tipo-pokemon {
+  background-color: #f2f2f2;
+  border: 0;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px;
+
+  font-family: 'Roboto';
+  text-transform: uppercase;
+}
